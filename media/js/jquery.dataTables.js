@@ -3119,7 +3119,7 @@
 				/* Add user defined class */
 				if ( oCol.sClass )
 				{
-					nTd.className += ' '+oCol.sClass;
+					nTd.classList.add( oCol.sClass );
 				}
 	
 				// Visibility - add or remove as required
